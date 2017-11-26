@@ -1,0 +1,67 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background-color: #222D48;
+  overflow: hidden; }
+
+.character, .werewolf {
+  width: 19px;
+  /*
+  height: 5vw;
+  */
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-image: url("../img/fumiko.png");
+  background-repeat: no-repeat;
+  background-position-x: -2px; }
+
+.werewolf {
+  width: 27px;
+  height: 34px;
+  top: 0;
+  left: -32.5%;
+  background-image: url("../img/werewolf_cut.png"); }
+
+.screen {
+  width: 35%;
+  height: 40%;
+  position: absolute;
+  top: 11.5%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  border: 1px solid black; }
+  .screen .sky, .screen .mountains, .screen .lone-mountain, .screen .trees, .screen .grass {
+    width: 100%;
+    height: 80%;
+    background-image: url("../img/screen_img/layers/sky.png");
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    top: 0;
+    left: 0; }
+  .screen .mountains {
+    background-image: url("../img/screen_img/layers/mountains.png");
+    top: 20%;
+    background-repeat: repeat-x; }
+  .screen .lone-mountain {
+    background-image: url("../img/screen_img/layers/lone_mountain.png");
+    background-repeat: repeat-x;
+    background-position: bottom; }
+  .screen .trees, .screen .grass {
+    background-image: url("../img/screen_img/layers/trees.png");
+    background-position: top;
+    background-repeat: repeat-x;
+    background-position: bottom;
+    margin-top: 11.7%; }
+  .screen .grass {
+    background-image: url("../img/screen_img/layers/grass.png"); }
+
+/*# sourceMappingURL=master.css.map */
